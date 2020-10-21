@@ -1,6 +1,5 @@
 
-
-<!-- ![Landing Page](https://www.tailwindtoolbox.com/templates/landing-page.png) -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/995f6934-e876-4343-a881-6ff282c6f8ae/deploy-status)](https://app.netlify.com/sites/verified/deploys)
 
 ## Build Setup
 
@@ -18,26 +17,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-<!-- 
-## Test Coverage -->
-<!-- | File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s |
-| ----------------------- | ------- | -------- | ------- | ------- | ----------------- |
-| All files               | 100     | 100      | 100     | 100     |                   |
-| components              | 100     | 100      | 100     | 100     |                   |
-| CallToAction.vue        | 100     | 100      | 100     | 100     |                   |
-| CallToActionContent.vue | 100     | 100      | 100     | 100     |                   |
-| FeatureLeft.vue         | 100     | 100      | 100     | 100     |                   |
-| FeatureRight.vue        | 100     | 100      | 100     | 100     |                   |
-| Features.vue            | 100     | 100      | 100     | 100     |                   |
-| Hero.vue                | 100     | 100      | 100     | 100     |                   |
-| HeroContent.vue         | 100     | 100      | 100     | 100     |                   |
-| Logo.vue                | 100     | 100      | 100     | 100     |                   |
-| Price.vue               | 100     | 100      | 100     | 100     |                   |
-| PriceHighlighted.vue    | 100     | 100      | 100     | 100     |                   |
-| Prices.vue              | 100     | 100      | 100     | 100     |                   |
-| TeaserColumn.vue        | 100     | 100      | 100     | 100     |                   |
-| Teasers.vue             | 100     | 100      | 100     | 100     |                   |
-| TheFooter.vue           | 100     | 100      | 100     | 100     |                   |
-| TheHeader.vue           | 100     | 100      | 100     | 100     |                   |
-| pages                   | 100     | 100      | 100     | 100     |                   |
-| index.vue               | 100     | 100      | 100     | 100     |                   | -->
