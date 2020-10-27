@@ -1,42 +1,40 @@
 <template>
   <div class="pt-0 text-black">
     <main>
-      <section>
+
+
+      <section class="text-gray-700 body-font">
         <div
-          class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+          class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
         >
-          <!--Left Col-->
           <div
-            class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
+            class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
           >
-            <p class="uppercase tracking-loose w-full">
+            <p class="capitalize  text-sm w-full">
               Want to be verified?
             </p>
-            <h1 class="my-4 text-5xl font-bold leading-tight">
+            <h1
+              class="title-font sm:text-5xl text-4xl mb-4 font-bold text-gray-900 "
+            >
               Simplest way to get verified
             </h1>
-            <p class="leading-normal text-xl mb-8">
+            <p class="mb-8 leading-relaxed text-lg">
               we use your bvn in giving you a fast verification no cap 😎
             </p>
-
-            <div
-              class="flex md:flex-no-wrap flex-wrap justify-center md:justify-start"
-            >
+            <div class="flex w-full md:justify-start justify-center">
               <input
-                class="sm:w-64 w-40 bg-gray-300 rounded sm:mr-4 mr-2 border border-gray-400 focus:outline-none focus:border-indigo-500 text-base py-2 px-4"
-                placeholder="eg 20123456"
+                class="bg-gray-100 rounded mr-4 border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 lg:w-full xl:w-1/2 w-2/4 md:w-full"
+                placeholder="2015678349"
                 type="text"
               />
               <button
-                class="inline-flex text-white   py-2 px-6 focus:outline-none rounded btn"
+                class="inline-flex text-white  py-2 px-6 focus:outline-none  rounded text-lg btn"
               >
                 Send
               </button>
-            
             </div>
           </div>
-          <!--Right Col-->
-          <div class="w-full md:w-3/5 py-6 text-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
               class="w-full md:w-4/5 z-50"
               src="~/assets/img/mobile-img.png"
