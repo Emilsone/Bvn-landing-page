@@ -2,7 +2,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/995f6934-e876-4343-a881-6ff282c6f8ae/deploy-status)](https://app.netlify.com/sites/verified/deploys)
 
 
-Nuxt Js
+Nuxt Js | Tailwind CSS | Jest | Netlify |
 
 
 
