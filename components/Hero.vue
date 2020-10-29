@@ -19,21 +19,23 @@
             <p class="mb-8 leading-relaxed text-lg">
               we use your bvn in giving you a fast verification no cap 😎
             </p>
-            <form name="contact" netlify>
-              <div class="flex w-full md:justify-start justify-center">
-                <input
-                  class="bg-gray-100 rounded mr-4 border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 lg:w-full xl:w-1/2 w-2/4 md:w-full"
-                  placeholder="2015678349"
-                  type="text"
-                  name="Bvn"
-                />
-                <button
-                  class="inline-flex text-white  py-2 px-6 focus:outline-none  rounded text-lg btn"
-                >
-                  Send
-                </button>
-              </div>
-            </form>
+            <!-- <form> -->
+            <div class="flex w-full md:justify-start justify-center">
+              <input
+                class="bg-gray-100 rounded mr-4 border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 lg:w-full xl:w-1/2 w-2/4 md:w-full"
+                placeholder="2015678349"
+                type="text"
+                name="Bvn"
+                v-model="number"
+              />
+              <button
+                class="inline-flex text-white  py-2 px-6 focus:outline-none rounded text-lg btn"
+                @click="submit"
+              >
+                Send
+              </button>
+            </div>
+            <!-- </form> -->
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
@@ -50,6 +52,16 @@
 
 <script>
 export default {
-  name: 'Hero'
+  data() {
+    return {
+      number: null
+    }
+  },
+  methods: {
+    submit() {
+      console.log('submit profile')
+      console.log(this.number)
+    }
+  }
 }
 </script>
